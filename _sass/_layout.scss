@@ -2,7 +2,6 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
@@ -162,7 +161,6 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
 }
 
 .page-heading {
@@ -233,4 +231,29 @@
             font-size: 18px;
         }
     }
+}
+
+/** Hero Banner **/
+
+.hero-banner {
+    height: 350px;
+    position: relative;
+    h1 {
+        height: 50px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        text-align: center;
+        color: white;
+    }
+}
+
+.hero-banner-home {
+    background-image: url("/images/home-image.jpg");
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
 }
