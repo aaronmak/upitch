@@ -1,11 +1,9 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Our Purpose
+permalink: /our-purpose/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+UPitch was built to help professionals and students to get up and running as quickly as possible by asking the right questions together with slides that are meaningful and well designed.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+If you have any suggestions or contributions, please email your queries to [iwanttohelp@upitch.co](mailto:iwanttohelp@upitch.co)
