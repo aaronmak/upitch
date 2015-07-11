@@ -4,11 +4,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+  <meta property="og:site_name" content="UPitch"/>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700|Raleway' rel='stylesheet' type='text/css'>
+  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+  <meta property="og:image" content="/images/icon-open-graph.jpg" />
 	<link rel="stylesheet" href="{{ "{{ site.baseurl }}/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+  <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700|Raleway' rel='stylesheet' type='text/css'>
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -17,7 +22,6 @@
 
   ga('create', 'UA-64805372-1', 'auto');
   ga('send', 'pageview');
-  ga(‘set’, ‘&uid’, {{USER_ID}}); // Set the user ID using signed-in user_id.
 </script>
   <!-- <script src="//load.sumome.com/" data-sumo-site-id="11ddab7af7bf0e01520601e497ee5e0f8c080206bc06f8266e2e204a047ff2bc" async="async"></script> -->
 </head>
