@@ -3,7 +3,7 @@ title: UPitch
 email: contact@upitch.co
 description: > # this means to ignore newlines until "baseurl:"
   Save half the time on presentations with templates that only look good but get the ball rolling.
-baseurl: "/upitch" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://upitch.co" # the base hostname & protocol for your site
 twitter_username: upitchtemplates
 github_username:
