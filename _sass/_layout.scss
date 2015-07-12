@@ -123,6 +123,21 @@ a {
 
 .site-footer {
     border-top: 1px solid $light-grey;
+    .row {
+        margin: $spacing-unit/2 0;
+        a {
+            margin: 0 $spacing-unit/2;
+        }
+        a:first-child {
+            margin-left: 0;
+        }
+    }
+
+    .row:nth-child(2) {
+        a {
+            color: $grey;
+        }
+    }
 }
 
 .footer-heading {
@@ -179,34 +194,6 @@ a {
     margin-top: $spacing-unit;
     margin-bottom: $spacing-unit/2;
 }
-
-// .post-content {
-//     margin-bottom: $spacing-unit;
-
-//     h2 {
-//         font-size: 32px;
-
-//         @include media-query($on-laptop) {
-//             font-size: 28px;
-//         }
-//     }
-
-//     h3 {
-//         font-size: 26px;
-
-//         @include media-query($on-laptop) {
-//             font-size: 22px;
-//         }
-//     }
-
-//     h4 {
-//         font-size: 20px;
-
-//         @include media-query($on-laptop) {
-//             font-size: 18px;
-//         }
-//     }
-// }
 
 /** Hero Banner **/
 

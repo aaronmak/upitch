@@ -1,10 +1,14 @@
 ---
 layout: page
-title: Contact
-permalink: /contact/
+title: About Us - Upitch
+header: About Us
+permalink: /about-us/
 ---
 
-For whatever reason you'd like to drop us a text, let us know in the form below.
+UPitch was built to help professionals and students to get up and running as quickly as possible by asking the right questions together with slides that are meaningful and well designed.
+
+If you have any suggestions or contributions, please fill up the form below and we will get back to you after a long day of work.
+
 <form>
   <div class="row">
     <div class="six columns">
