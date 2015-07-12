@@ -229,7 +229,7 @@ a {
 }
 
 .hero-banner-home {
-    background-image: url("/images/home-image.jpg");
+    background-image: url("/assets/home-image.jpg");
     background-repeat: none;
     background-position: center;
     background-size: cover;
@@ -248,11 +248,18 @@ a {
 
 /** Product Thumbnails **/
 
+.products {
+    padding: $spacing-unit 0;
+    text-align: center;
+    background-color: $very-light-grey;
+}
+
 .product-thumbnail {
     margin-top: $spacing-unit;
     margin-bottom: $spacing-unit;
     padding: $spacing-unit/2;
     text-align: center;
+    background-color: white;
     @include card(1);
     transition: all 0.3s;
     -webkit-transform:translate3d(0,0,0);
