@@ -17,6 +17,10 @@ button, .button {
     transition: all 0.3s;
 }
 
+a {
+    text-decoration: none;
+}
+
 /**
  * Site header
  */
@@ -257,6 +261,7 @@ button, .button {
         font-family: $font-family-default;
         font-weight: 400;
         color: $dark-grey;
+        // text-decoration: none !important;
         &:hover {
             color: $dark-grey;
         }
