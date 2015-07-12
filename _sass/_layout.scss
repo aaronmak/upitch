@@ -235,6 +235,17 @@ a {
     background-size: cover;
 }
 
+/** Benefits **/
+
+.benefits {
+    text-align: center;
+    padding: $spacing-unit 0;
+    border-bottom: 1px solid $light-grey;
+    p {
+        color: $grey;
+    }
+}
+
 /** Product Thumbnails **/
 
 .product-thumbnail {

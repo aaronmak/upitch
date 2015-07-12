@@ -43,6 +43,9 @@ $secondary-color: lighten($dark-grey, 13.5%) !default;
 $border-color: #bbb !default;
 $link-color: darken($primary-color, 10%) !default;
 $font-color: #222 !default;
+$upitch-yellow: #F1CB3F;
+$upitch-red: #E05A44;
+$upitch-green: $primary-color;
 
 // Typography
 $font-family-heading: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
