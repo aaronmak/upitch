@@ -9,6 +9,8 @@ UPitch was built to help professionals and students to get up and running as qui
 
 If you have any suggestions or contributions, please fill up the form below and we will get back to you after a long day of work.
 
+<!-- If you have any suggestions or contributions, please fill up the form below and we will get back to you after a long day of work.
+
 <form>
   <div class="row">
     <div class="six columns">
@@ -25,4 +27,9 @@ If you have any suggestions or contributions, please fill up the form below and 
 	<div class="row">
 		<input class="button-primary" type="submit" value="Submit">
 	</div>
-</form>
+</form> -->
+
+
+<div class="row">
+  <a href="https://upitch.wufoo.com/forms/zq3owmx1a1om10/" class="button button-primary">Contact Us</a>
+</div>

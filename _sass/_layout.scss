@@ -292,4 +292,8 @@ a {
 }
 
 
-
+/** Wufoo Contact Form **/
+input#saveForm, .btnTxT {
+    background-color: $primary-color;
+    @extend .button-primary;
+}
