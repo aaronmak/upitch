@@ -21,6 +21,27 @@ a {
     text-decoration: none;
 }
 
+/** Button **/
+
+.button.button-secondary,
+button.button-secondary {
+    color: #fff;
+    background-color: $upitch-red;
+    border-color: $upitch-red;
+    &:hover {
+        background-color: darken($upitch-red, 10%);
+    }
+}
+
+
+.button-wide {
+    @media ($bp-larger-than-tablet) {
+        font-size: 1.8rem;
+    }
+    width: 100%;
+    font-size: 1.5rem;
+}
+
 /**
  * Site header
  */
@@ -291,6 +312,12 @@ a {
     }
 }
 
+/** Product Purchase Button **/
+// .product-content .button {
+//     @media ($bp-larger-than-tablet) {
+        
+//     }
+// }
 
 /** Wufoo Contact Form **/
 input#saveForm, .btnTxT {

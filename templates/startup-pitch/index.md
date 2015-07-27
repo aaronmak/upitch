@@ -28,6 +28,14 @@ Comes with carefully selected slides that are inspired from Guy Kawasaki's, The 
 
 <!-- <script type="text/javascript" src="https://gumroad.com/js/gumroad-embed.js"></script>
 <div class="gumroad-product-embed" data-gumroad-product-id="Cvgh" data-outbound-embed="true"><a href="https://gumroad.com/l/Cvgh">Start Pitching</a></div> -->
+<div class="row">
+	<div class="one-half column">
+		<a class="button button-wide" href="https://gumroad.com/l/startup-template-keynote">Get Keynote | $5</a>
+	</div>
+	<div class="one-half column">
+		<a class="button button-wide" href="https://gumroad.com/l/startup-template-powerpoint">Get PPT | $5</a>
+	</div>
+</div>
+<a class="button button-secondary button-wide" href="https://gumroad.com/l/startup-template-bundle">Get Bundle | $7</a>
 
-
-<a class="gumroad-button" href="https://gumroad.com/l/Cvgh">Get These Slides</a>
+<!-- <a class="gumroad-button" href="https://gumroad.com/l/Cvgh">Get These Slides</a> -->
