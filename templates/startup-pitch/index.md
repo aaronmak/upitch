@@ -36,6 +36,6 @@ Comes with carefully selected slides that are inspired from Guy Kawasaki's, The 
 		<a class="button button-wide" href="https://gumroad.com/l/startup-template-powerpoint">Get PPT | $5</a>
 	</div>
 </div>
-<a class="button button-secondary button-wide" href="https://gumroad.com/l/startup-template-bundle">Get Bundle | $7</a>
+<a class="button button-secondary button-wide" href="https://gumroad.com/l/startup-template-bundle">Get Keynote + PPT | $7</a>
 
 <!-- <a class="gumroad-button" href="https://gumroad.com/l/Cvgh">Get These Slides</a> -->
